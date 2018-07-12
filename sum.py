@@ -1,12 +1,9 @@
-N=int(input())
-K=int(input())
-numbers=input()
-x=numbers.split()
+n=int(input())
+k=int(input())
+number=input()
+elements=numbers.split()
 total=0
-if(K>0 and N>0):
-    for i in range(0,K):
-        total=total+int(x[i])
+for i in range(0,k):
+    total=total+elements[i]
+print(total)
 
-    print(total)
-else:
-    print("invalid")
